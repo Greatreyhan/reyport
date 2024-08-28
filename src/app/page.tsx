@@ -92,7 +92,7 @@ export default function Home() {
         </ul>
       </div>
 
-      {/* Contact Me */}
+      {/* Contact Me  */}
 
       <div className="mt-32" id="contact">
           <div className="text-center w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
