@@ -15,17 +15,17 @@ const Navigation = () => {
 
                 {/* Menu */}
                 <div className='text-sm gap-5 flex'>
-                    <Link className={` ${pathname == "/" ? 'font-semibold text-white' : "font-normal text-slate-200" } hover:underline`} href="/">Me</Link>
-                    <Link className={` ${pathname == "/project" ? 'font-semibold text-white' : "font-normal text-slate-200" } hover:underline`} href="/">Project</Link>
-                    <Link className={` ${pathname == "/resume" ? 'font-semibold text-white' : "font-normal text-slate-200" } hover:underline`} href="/">Resume</Link>
-                    <Link className={` ${pathname == "/contact" ? 'font-semibold text-white' : "font-normal text-slate-200" } hover:underline`} href="/">Contact Me</Link>
+                    <a className={` ${pathname == "/" ? 'font-semibold text-white' : "font-normal text-slate-200" } hover:underline`} href="#profile">Me</a>
+                    <a className={` ${pathname == "/project" ? 'font-semibold text-white' : "font-normal text-slate-200" } hover:underline`} href="#project">Project</a>
+                    <a className={` ${pathname == "/resume" ? 'font-semibold text-white' : "font-normal text-slate-200" } hover:underline`} href="#experience">Experience</a>
+                    <a className={` ${pathname == "/contact" ? 'font-semibold text-white' : "font-normal text-slate-200" } hover:underline`} href="#contact">Contact Me</a>
                 </div>
 
                 {/* Social Media (CTA) */}
                 <div className='flex items-center gap-3'>
-                    <a href="#"><IoLogoLinkedin className='text-2xl' /></a>
-                    <a href="#"><IoLogoGithub className='text-2xl' /></a>
-                    <a href="#"><IoLogoInstagram className='text-2xl' /></a>
+                    <a href="https://www.linkedin.com/in/greatreyhan"><IoLogoLinkedin className='text-2xl' /></a>
+                    <a href="https://github.com/Greatreyhan"><IoLogoGithub className='text-2xl' /></a>
+                    <a href="https://www.instagram.com/greatreyhans/"><IoLogoInstagram className='text-2xl' /></a>
                 </div>
             </div>
         </nav>
