@@ -27,16 +27,16 @@ export default function Home() {
       <Hero />
 
       {/* Executive Summary */}
-      <div className="mx-auto w-10/12 flex" style={{ fontFamily: 'Baskervville SC, serif' }}>
-        <h2 className="text-5xl font-sans font-semibold">About Me &<br /> My Work<span className="text-orange-500">.</span></h2>
-        <div className="flex-1 text-md mx-8">
+      <div className="md:mx-auto md:w-10/12 flex md:flex-row flex-col mx-10" style={{ fontFamily: 'Baskervville SC, serif' }}>
+        <h2 className="md:text-5xl text-3xl font-sans font-semibold">About Me &<br /> My Work<span className="text-orange-500">.</span></h2>
+        <div className="flex-1 text-md md:mx-8 md:mt-0 mt-6">
           <p className="text-justify text-slate-100">I am an Electrical Engineering student at Diponegoro University specializing in electronics, robotics, and automation. I have hands-on experience in enhancing automated systems, such as improving the control range of an excavator by 40% using MQTT during my internship at PT Asta Berkah Autonomous. As a Project Manager at PT Widya Solusi Utama, I increased email open rates by 9.77% through targeted analysis and led the installation of automated fingerprint systems. My leadership at the Undip Robotic Development Center resulted in an 80% increase in teams qualifying for the Indonesian Robot Contest. Proficient in C, Python, JavaScript, SolidWorks, Eagle, and Figma, I am passionate about robotics, automation, green energy, and team management.</p>
         </div>
       </div>
 
       {/* Project Showcase */}
-      <div id="project" className="mx-auto w-10/12 mt-24 border-b border-opacity-25 border-slate-300">
-        <h2 className="text-5xl font-sans font-semibold">Work Showcase<span className="text-orange-500">.</span></h2>
+      <div id="work" className="mx-auto w-10/12 mt-24 border-b border-opacity-25 border-slate-300">
+        <h2 className="md:text-5xl text-3xl font-sans font-semibold">Work Showcase<span className="text-orange-500">.</span></h2>
         
         <ListWork title={"Goods Management Web Application - DML"} subtitle={"Full-Stack Developer"} image={W1} link={'https://dml.higenncy.com/'} desc={"As a Full-Stack Developer, I led the development of a logistics management platform for PT Dimana-Mana Logistik, utilizing the MERN stack to digitize and automate their shipment process. This project aimed to centralize logistics-related operations into a streamlined web application within a one-month timeframe. I was responsible for both front-end and back-end development, ensuring the platform was user-friendly, scalable, and efficient."} />
         <ListWork title={"Market Place - Photoinstaxsemarang"} subtitle={"Full-Stack Developer"} image={W4} link={'https://photoinstaxsemarang.com/'} desc={"As a Full-Stack Developer, I developed a marketplace web application for Photoinstaxsemarang, a store specializing in the sale and printing of Polaroid photos in various types and formats. The platform, built using the MERN Stack, includes a customer ordering system with order tracking and an admin panel to manage inventory, purchases, and revenue."} />

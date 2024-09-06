@@ -12,7 +12,7 @@ const P4
             {/* Header */}
             <div>
                 {/* backgroud */}
-                <div className='w-full h-96 relative'>
+                <div className='w-full md:h-96 h-44 relative'>
                     <Image
                         src={B4}
                         alt="Hero"
@@ -25,27 +25,26 @@ const P4
             </div>
 
             {/* Description */}
-            <div className='w-8/12 mx-auto'>
+            <div className='md:w-8/12 px-8 md:px-0 mx-auto'>
 
                 {/* Title */}
-                <h1 className='mt-8 text-5xl text-white' style={{ fontFamily: 'Baskervville SC, serif' }}>Andromeda Robotic Team for Kontes Robot SAR Indonesia.</h1>
-                <h2 className='text-lg my-4 font-mono text-white'>Finalist Kontes Robot SAR Indonesia (KRSRI) | Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi</h2>
+                <h1 className='mt-8 md:text-5xl text-3xl  text-white' style={{ fontFamily: 'Baskervville SC, serif' }}>Andromeda Robotic Team for Kontes Robot SAR Indonesia.</h1>
+                <h2 className='md:text-lg text-sm my-4 font-mono text-white'>Finalist Kontes Robot SAR Indonesia (KRSRI) | Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi</h2>
 
                 {/* Video */}
                 <iframe
                     src="https://drive.google.com/file/d/1Pj6MJwO-X5dVo3n8vie78aXTeoYpdKGy/preview"
                     allow="autoplay"
-                    className='w-full h-96 mt-16'
+                    className='w-full md:h-96 h-64 mt-16'
                 ></iframe>
-
                 {/* Description */}
-                <p className='text-white text-xl text-justify mt-16' style={{ fontFamily: 'Baskervville SC, serif' }}>
+                <p className='text-white text-lg md:text-xl text-justify mt-16' style={{ fontFamily: 'Baskervville SC, serif' }}>
                     In the Andromeda Robotic Team, my role involved programming the hexapod robot, focusing on both the kinematics of its legs and the integration of sensor data to ensure accurate movement across the competition arena. I was responsible for developing the kinematic models that control the individual movements of the robot&apos;s six legs, allowing it to navigate complex terrains with stability and precision. Additionally, I implemented algorithms that process sensor readings to adapt the robot&apos;s movements based on real-time environmental conditions, ensuring that the robot could effectively respond to obstacles and follow the designated path in the arena. This work required a deep understanding of robotic motion control and sensor integration, ensuring that the robot could perform its search and rescue tasks efficiently.
                 </p>
 
                 <Image src={PC4}
                     alt="Hero"
-                    className='w-8/12 h-full mx-auto py-8' />
+                    className='md:w-5/12 w-9/12 h-full mx-auto py-8' />
 
                 {/* CTA */}
                 <div className='w-full flex justify-center gap-5'>

@@ -11,7 +11,7 @@ const P1 = () => {
             {/* Header */}
             <div>
                 {/* backgroud */}
-                <div className='w-full h-96 relative'>
+                <div className='w-full md:h-96 h-44 relative'>
                     <Image
                         src={B1}
                         alt="Hero"
@@ -24,21 +24,21 @@ const P1 = () => {
             </div>
 
             {/* Description */}
-            <div className='w-8/12 mx-auto'>
+            <div className='md:w-8/12 px-8 md:px-0 mx-auto'>
 
                 {/* Title */}
-                <h1 className='mt-8 text-5xl text-white' style={{ fontFamily: 'Baskervville SC, serif' }}>Plant Seed Quality Enhancement Box Utilizing Extremely Low Frequency Electromagnetic Fields and Internet of Things Integration</h1>
-                <h2 className='text-lg my-4 font-mono text-white'>PKM-KC 2021 Funding Awardee - Simbelmawa, Kemdikbud, Indonesia</h2>
+                <h1 className='mt-8 md:text-5xl text-3xl  text-white' style={{ fontFamily: 'Baskervville SC, serif' }}>Plant Seed Quality Enhancement Box Utilizing Extremely Low Frequency Electromagnetic Fields and Internet of Things Integration</h1>
+                <h2 className='md:text-lg text-sm my-4 font-mono text-white'>PKM-KC 2021 Funding Awardee - Simbelmawa, Kemdikbud, Indonesia</h2>
 
                 {/* Video */}
                 <iframe
                     src="https://drive.google.com/file/d/144uStUNvJyc-Kww-c0khMDDuqjE5jAhm/preview"
                     allow="autoplay"
-                    className='w-full h-96 mt-16'
+                    className='w-full md:h-96 h-64 mt-16'
                 ></iframe>
 
                 {/* Description */}
-                <p className='text-white text-xl text-justify mt-16' style={{ fontFamily: 'Baskervville SC, serif' }}>Along with the passage of time, the population of Indonesia has continued to increase, as has the demand for staple foods and vegetables. According to data from the 2020 Population Census (BPS, 2020), the population of Indonesia was recorded at 270.20 million people, an increase of 32.56 million compared to the previous census. This population growth must be accompanied by efforts to meet the nation&apos;s food needs.
+                <p className='text-white text-lg md:text-xl text-justify mt-16' style={{ fontFamily: 'Baskervville SC, serif' }}>Along with the passage of time, the population of Indonesia has continued to increase, as has the demand for staple foods and vegetables. According to data from the 2020 Population Census (BPS, 2020), the population of Indonesia was recorded at 270.20 million people, an increase of 32.56 million compared to the previous census. This population growth must be accompanied by efforts to meet the nation&apos;s food needs.
 
                     Currently, food supplies in Indonesia still depend on imports from abroad. According to data from the Central Statistics Agency (BPS) in 2019, Indonesia imported 770,378.4 kg of vegetables and 724,131.1 kg of fruit from other countries. This is because domestic production has not yet been able to meet the growing demand for food. The quality of the harvest is also a contributing factor to Indonesia&apos;s ongoing importation of food products. Therefore, to address crop failures and declining harvest yields, improving the quality of seeds planted is necessary.
 
@@ -50,10 +50,10 @@ const P1 = () => {
 
                 <Image src={PC1}
                     alt="Hero"
-                    className='w-8/12 h-full mx-auto py-8' />
+                    className='md:w-5/12 w-9/12 h-full mx-auto py-8' />
 
                 {/* CTA */}
-                <div className='w-full flex justify-center gap-5'>
+                <div className='w-full flex justify-center md:gap-5 gap-2 text-sm mt-8'>
                     <a className='bg-white font-semibold px-6 py-2 rounded-full hover:underline hover:bg-slate-100 inline-flex justify-center items-center' target="_blank" style={{ fontFamily: 'Baskervville SC, serif' }} href="https://docs.google.com/document/d/1n4GbmhO7XXrF9Sc4lg3WSjZkFFt1Kc2v/edit?usp=drive_link&ouid=111329683089977458702&rtpof=true&sd=true"><span>Full Text</span><IoMdDownload className='ml-2' /></a>
                     <a className='bg-white font-semibold px-6 py-2 rounded-full hover:underline hover:bg-slate-100 inline-flex justify-center items-center' target="_blank" style={{ fontFamily: 'Baskervville SC, serif' }} href="https://drive.google.com/file/d/1fzae2qZqdKyaKvnDEXaq_MgABxfx1eL3/view?usp=drive_link"><span>Application APK</span><IoMdDownload className='ml-2' /></a>
                 </div>
