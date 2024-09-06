@@ -4,6 +4,11 @@ import Footer from "./components/footer";
 import Hero from "./components/hero";
 import ListProject from "./components/listProject";
 import ListExperience from "./components/listExperience";
+import W1 from "/public/img/W1.png"
+import W2 from "/public/img/W2.png"
+import W3 from "/public/img/W3.png"
+import W4 from "/public/img/W4.png"
+import W5 from "/public/img/W5.png"
 import P1 from "/public/img/P1.png"
 import P2 from "/public/img/P2.png"
 import P3 from "/public/img/P3.png"
@@ -13,6 +18,7 @@ import P6 from "/public/img/P6.png"
 import P7 from "/public/img/P7.png"
 import P8 from "/public/img/P8.png"
 import P9 from "/public/img/P9.png"
+import ListWork from "./components/listWork";
 
 export default function Home() {
   return (
@@ -26,6 +32,18 @@ export default function Home() {
         <div className="flex-1 text-md mx-8">
           <p className="text-justify text-slate-100">I am an Electrical Engineering student at Diponegoro University specializing in electronics, robotics, and automation. I have hands-on experience in enhancing automated systems, such as improving the control range of an excavator by 40% using MQTT during my internship at PT Asta Berkah Autonomous. As a Project Manager at PT Widya Solusi Utama, I increased email open rates by 9.77% through targeted analysis and led the installation of automated fingerprint systems. My leadership at the Undip Robotic Development Center resulted in an 80% increase in teams qualifying for the Indonesian Robot Contest. Proficient in C, Python, JavaScript, SolidWorks, Eagle, and Figma, I am passionate about robotics, automation, green energy, and team management.</p>
         </div>
+      </div>
+
+      {/* Project Showcase */}
+      <div id="project" className="mx-auto w-10/12 mt-24 border-b border-opacity-25 border-slate-300">
+        <h2 className="text-5xl font-sans font-semibold">Work Showcase<span className="text-orange-500">.</span></h2>
+        
+        <ListWork title={"Goods Management Web Application - DML"} subtitle={"Full-Stack Developer"} image={W1} link={'https://dml.higenncy.com/'} desc={"As a Full-Stack Developer, I led the development of a logistics management platform for PT Dimana-Mana Logistik, utilizing the MERN stack to digitize and automate their shipment process. This project aimed to centralize logistics-related operations into a streamlined web application within a one-month timeframe. I was responsible for both front-end and back-end development, ensuring the platform was user-friendly, scalable, and efficient."} />
+        <ListWork title={"Market Place - Photoinstaxsemarang"} subtitle={"Full-Stack Developer"} image={W4} link={'https://photoinstaxsemarang.com/'} desc={"As a Full-Stack Developer, I developed a marketplace web application for Photoinstaxsemarang, a store specializing in the sale and printing of Polaroid photos in various types and formats. The platform, built using the MERN Stack, includes a customer ordering system with order tracking and an admin panel to manage inventory, purchases, and revenue."} />
+        <ListWork title={"Event Registration - CIMB Niaga"} subtitle={"Full-Stack Developer"} image={W5} link={'https://www.cimbniaga.co.id/id/personal/pengumuman/kejar-mimpi-rising-start-2024'} desc={"For the Rising Start event registration website from CIMB Niaga, I worked as a Full-Stack Developer to create a comprehensive platform using the MERN Stack. The website facilitated the registration process for participants and provided detailed information about the singing competition. It also included a verification system to ensure that only eligible participants could register."} />
+        <ListWork title={"Landing Page - Abdurrahman & Co"} subtitle={"Full-Stack Developer"} image={W3} link={'https://abdurrahman.co.id/'} desc={"As a Full-Stack Developer, I developed a landing page with a blog article section and an admin panel for managing articles, using the MERN Stack for Lawfirm Abdurrahman & Co. This law firm, based in Semarang, operates with the vision of 'humanizing humanity' by ensuring justice for those who seek it. Their mission is to work professionally and progressively, providing high-quality services to maintain trust and client satisfaction, aiming to become a model for legal practice in Indonesia."} />
+        <ListWork title={"Landing Page - Temps Lawfirm"} subtitle={"Full-Stack Developer"} image={W2} link={'https://temps-lawfirm.web.app/'} desc={"As a Full-Stack Developer, I developed a landing page for TEMPS, a prominent group of companies in Indonesia that has contributed to the food and economic sectors for over a decade. TEMPS provides professional legal consulting services, actively engaging in various key industries, including trade, manufacturing, construction, transportation, and legal consulting."} />
+  
       </div>
 
       {/* Project Showcase */}
