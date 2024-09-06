@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-import B1 from '/public/img/B1.jpg'
-import PC1 from '/public/img/P1.png'
+import B6 from '/public/img/B6.jpg'
+import PC6 from '/public/img/P6.png'
 import { IoMdDownload } from "react-icons/io";
 
 
@@ -13,7 +13,7 @@ const P6 = () => {
                 {/* backgroud */}
                 <div className='w-full h-96 relative'>
                     <Image
-                        src={B1}
+                        src={B6}
                         alt="Hero"
                         layout="fill"
                         objectFit="cover"
@@ -27,35 +27,33 @@ const P6 = () => {
             <div className='w-8/12 mx-auto'>
 
                 {/* Title */}
-                <h1 className='mt-8 text-5xl text-white' style={{ fontFamily: 'Baskervville SC, serif' }}>Gravitational Water Vortex Power Plant (GWVPP) and Archimedes Screw Turbine</h1>
-                <h2 className='text-lg my-4 font-mono text-white'>Top 10 of Hackathon Energy [Re]Spark - New Energy Nexus</h2>
+                <h1 className='mt-8 text-5xl text-white' style={{ fontFamily: 'Baskervville SC, serif' }}>Optimization of Warehouse Automated Guided Vehicle with Indoor Positioning System-Based Navigation and Artificial Intelligence Algorithms to Enhance Industrial Warehouse Efficiency</h1>
+                <h2 className='text-lg my-4 font-mono text-white'>Gold Medal at World Young Inventors Exhibition 2024 | ITEX, Malaysia</h2>
 
                 {/* Video */}
                 <iframe
-                    src="https://drive.google.com/file/d/144uStUNvJyc-Kww-c0khMDDuqjE5jAhm/preview"
+                    src="https://www.youtube.com/embed/M5sQa9pAAg0?si=Zso5M_yMc40XLEoX"
                     allow="autoplay"
                     className='w-full h-96 mt-16'
                 ></iframe>
 
                 {/* Description */}
-                <p className='text-white text-xl text-justify mt-16' style={{ fontFamily: 'Baskervville SC, serif' }}>Along with the passage of time, the population of Indonesia has continued to increase, as has the demand for staple foods and vegetables. According to data from the 2020 Population Census (BPS, 2020), the population of Indonesia was recorded at 270.20 million people, an increase of 32.56 million compared to the previous census. This population growth must be accompanied by efforts to meet the nation’s food needs.
-
-                    Currently, food supplies in Indonesia still depend on imports from abroad. According to data from the Central Statistics Agency (BPS) in 2019, Indonesia imported 770,378.4 kg of vegetables and 724,131.1 kg of fruit from other countries. This is because domestic production has not yet been able to meet the growing demand for food. The quality of the harvest is also a contributing factor to Indonesia’s ongoing importation of food products. Therefore, to address crop failures and declining harvest yields, improving the quality of seeds planted is necessary.
-
-                    The success or failure of plant seeds to germinate is determined by several factors, such as the age and storage time of the seeds. Extended storage time can lead to a decline in vigor and viability (Fatiya, 2019). As a result, seeds may not grow optimally, affecting farmers' harvest yields.
-
-                    A previous study conducted by De Souza in 2015 showed that tomato seeds (Lycopersicon esculentum) exposed to a magnetic field of 120 mT for 10 minutes or 80 mT for 5 minutes increased fruit production by 17.9–21.3% and fruit weight by 47.3–51.7% compared to seeds that were not exposed to a magnetic field. Meanwhile, a study conducted by Rochmah in 2020 demonstrated that red chili peppers (Capsicum annuum L) exposed to a magnetic field could increase harvest yields and resist Fusarium sp. fungi, which can hinder the growth of chili plants.
-
-                    Based on the above background, the author intends to design "SERIBUAN" (Seed Repairing Box with the Induction of Magnetic Field on Extremely Low Frequency) with IoT integration, which is an innovative application of magnetic field exposure to plant seeds. This tool aims to repair and improve the quality of aging seeds through exposure to ELF (Extremely Low Frequency) magnetic induction and is integrated via IoT (Internet of Things), allowing the device to be controlled through a smartphone based on the type of seed used.</p>
-
-                <Image src={PC1}
+                <p className='text-white text-xl text-justify mt-16' style={{ fontFamily: 'Baskervville SC, serif' }}>A warehouse is a facility used for storing, managing, and distributing goods or products efficiently. The growth of industry and global trade has led to increased reliance on warehouses as distribution centers. The rising volume of goods requiring storage and distribution demands high operational efficiency in warehouse management. However, most warehouse systems in Indonesia still depend on manual labor for managing and moving goods. Despite advancements in automation and information technology that assist in managing inventory, human limitations remain in terms of operational efficiency and speed. Warehousing systems that rely heavily on manual labor are prone to human error, slow in moving goods, and less adaptable to unexpected changes in inventory.</p>
+                <p className='text-white text-xl text-justify' style={{ fontFamily: 'Baskervville SC, serif' }}>Generally, four processes occur within a warehouse: receiving, storing, picking, and shipping. The storage process is divided into two areas: the reserve area and the forward area. In the reserve area, goods are stored as efficiently as possible to save space. In the forward area, goods are arranged to facilitate easy picking based on demand. Transportation vehicles are needed in the forward area, as the goods are already grouped by destination, making them heavier and larger in quantity for shipping. This division creates a common warehouse concept where the reserve area is typically handled manually, while the forward area can utilize automated systems, such as robots, for transferring goods.</p>
+                <p className='text-white text-xl text-justify' style={{ fontFamily: 'Baskervville SC, serif' }}>The use of robotic systems like Automated Guided Vehicles (AGVs) and Autonomous Mobile Robots (AMRs) is a solution for speeding up the automatic movement of goods. AGVs rely on specific guidance systems (such as lines and barcodes) and require operator supervision, whereas AMRs can navigate autonomously using perception, localization, cognition, and motion control. The combination of AMRs with omnidirectional wheels provides advantages such as simplicity in control and installation, a more flexible wheel configuration, and quicker response to direction changes.</p>
+                <Image src={PC6}
                     alt="Hero"
-                    className='w-8/12 h-full mx-auto py-8' />
+                    className='w-4/12 h-full mx-auto py-8' />
+                <p className='text-white text-xl text-justify' style={{ fontFamily: 'Baskervville SC, serif' }}>To autonomously control an AMR, three key factors must be addressed: the robot’s current location, the destination, and how to reach the destination. The robot’s local position can be obtained through sensors (LiDAR, cameras, IMU, and encoders) perceiving the surrounding environment. Various methods exist to effectively determine the robot’s position in an indoor space, including sensor fusion, extended Kalman filters, probabilistic approaches, triangulation, and machine learning. The integration of robots with the internet also facilitates the exchange of information between robots, such as obstacles on their path or changes in route conditions. This technology reduces the computational load within the robot and enhances its navigation efficiency.</p>
+                <p className='text-white text-xl text-justify' style={{ fontFamily: 'Baskervville SC, serif' }}>Data transmission over the internet supports the concept of a digital twin, which creates a digital representation of the AMR’s physical system. Internet-based data transmission allows warehouse managers to monitor and control robot operations in real time. A digital twin enables managers to run simulations and predictive analyses, aiding decision-making based on up-to-date information and responsiveness to dynamic changes within the warehouse. Thus, the use of digital twins plays a crucial role in enhancing efficiency and simplifying warehouse management.</p>
+                <p className='text-white text-xl text-justify' style={{ fontFamily: 'Baskervville SC, serif' }}>Given the complexity of market demands and the need for operational efficiency in warehousing, the design of an Autonomous Mobile Robot (AMR) based on omnidirectional wheels with digital twin visualization via the Internet of Things is essential. Innovations in warehouse systems are expected not only to improve operational efficiency but also to provide flexibility in creating dynamic warehouses tailored to market needs.</p>
+
 
                 {/* CTA */}
-                <div className='w-full flex justify-center gap-5'>
-                    <a className='bg-white font-semibold px-6 py-2 rounded-full hover:underline hover:bg-slate-100 inline-flex justify-center items-center' target="_blank" style={{ fontFamily: 'Baskervville SC, serif' }} href="https://docs.google.com/document/d/1n4GbmhO7XXrF9Sc4lg3WSjZkFFt1Kc2v/edit?usp=drive_link&ouid=111329683089977458702&rtpof=true&sd=true"><span>Full Text</span><IoMdDownload className='ml-2' /></a>
-                    <a className='bg-white font-semibold px-6 py-2 rounded-full hover:underline hover:bg-slate-100 inline-flex justify-center items-center' target="_blank" style={{ fontFamily: 'Baskervville SC, serif' }} href="https://drive.google.com/file/d/1fzae2qZqdKyaKvnDEXaq_MgABxfx1eL3/view?usp=drive_link"><span>Application APK</span><IoMdDownload className='ml-2' /></a>
+                <div className='w-full flex justify-center gap-5 mt-8'>
+                    <a className='bg-white font-semibold px-6 py-2 rounded-full hover:underline hover:bg-slate-100 inline-flex justify-center items-center' target="_blank" style={{ fontFamily: 'Baskervville SC, serif' }} href="https://drive.google.com/drive/folders/1avcWOXYOtvTYalVQ5rJXT3b2Xor4kDWI?usp=sharing"><span>Full Text</span><IoMdDownload className='ml-2' /></a>
+                    <a className='bg-white font-semibold px-6 py-2 rounded-full hover:underline hover:bg-slate-100 inline-flex justify-center items-center' target="_blank" style={{ fontFamily: 'Baskervville SC, serif' }} href="https://github.com/Greatreyhan/STM32_AMR.git"><span>Embedded System Program</span><IoMdDownload className='ml-2' /></a>
+                    <a className='bg-white font-semibold px-6 py-2 rounded-full hover:underline hover:bg-slate-100 inline-flex justify-center items-center' target="_blank" style={{ fontFamily: 'Baskervville SC, serif' }} href="https://github.com/Greatreyhan/AMR_Web_Controller.git"><span>Web Application Program</span><IoMdDownload className='ml-2' /></a>
                 </div>
             </div>
         </>

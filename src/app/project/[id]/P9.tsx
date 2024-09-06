@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-import B1 from '/public/img/B1.jpg'
-import PC1 from '/public/img/P1.png'
+import B9 from '/public/img/B9.jpg'
+import PC9 from '/public/img/P9.png'
 import { IoMdDownload } from "react-icons/io";
 
 
@@ -13,7 +13,7 @@ const P9 = () => {
                 {/* backgroud */}
                 <div className='w-full h-96 relative'>
                     <Image
-                        src={B1}
+                        src={B9}
                         alt="Hero"
                         layout="fill"
                         objectFit="cover"
@@ -27,35 +27,34 @@ const P9 = () => {
             <div className='w-8/12 mx-auto'>
 
                 {/* Title */}
-                <h1 className='mt-8 text-5xl text-white' style={{ fontFamily: 'Baskervville SC, serif' }}>Gravitational Water Vortex Power Plant (GWVPP) and Archimedes Screw Turbine</h1>
-                <h2 className='text-lg my-4 font-mono text-white'>Top 10 of Hackathon Energy [Re]Spark - New Energy Nexus</h2>
+                <h1 className='mt-8 text-5xl text-white' style={{ fontFamily: 'Baskervville SC, serif' }}>Nutrizen: Know Your Nutrition - Track Nutrients & Detect Calories</h1>
+                <h2 className='text-lg my-4 font-mono text-white'>Bangkit Academy Capstone Project - Simbelmawa, Kemdikbud, Indonesia</h2>
 
                 {/* Video */}
                 <iframe
-                    src="https://drive.google.com/file/d/144uStUNvJyc-Kww-c0khMDDuqjE5jAhm/preview"
+                    src="https://www.youtube.com/embed/g04s9Y07Stg?si=cy4d8IP1-phKsrKX"
                     allow="autoplay"
                     className='w-full h-96 mt-16'
                 ></iframe>
 
                 {/* Description */}
-                <p className='text-white text-xl text-justify mt-16' style={{ fontFamily: 'Baskervville SC, serif' }}>Along with the passage of time, the population of Indonesia has continued to increase, as has the demand for staple foods and vegetables. According to data from the 2020 Population Census (BPS, 2020), the population of Indonesia was recorded at 270.20 million people, an increase of 32.56 million compared to the previous census. This population growth must be accompanied by efforts to meet the nation’s food needs.
-
-                    Currently, food supplies in Indonesia still depend on imports from abroad. According to data from the Central Statistics Agency (BPS) in 2019, Indonesia imported 770,378.4 kg of vegetables and 724,131.1 kg of fruit from other countries. This is because domestic production has not yet been able to meet the growing demand for food. The quality of the harvest is also a contributing factor to Indonesia’s ongoing importation of food products. Therefore, to address crop failures and declining harvest yields, improving the quality of seeds planted is necessary.
-
-                    The success or failure of plant seeds to germinate is determined by several factors, such as the age and storage time of the seeds. Extended storage time can lead to a decline in vigor and viability (Fatiya, 2019). As a result, seeds may not grow optimally, affecting farmers' harvest yields.
-
-                    A previous study conducted by De Souza in 2015 showed that tomato seeds (Lycopersicon esculentum) exposed to a magnetic field of 120 mT for 10 minutes or 80 mT for 5 minutes increased fruit production by 17.9–21.3% and fruit weight by 47.3–51.7% compared to seeds that were not exposed to a magnetic field. Meanwhile, a study conducted by Rochmah in 2020 demonstrated that red chili peppers (Capsicum annuum L) exposed to a magnetic field could increase harvest yields and resist Fusarium sp. fungi, which can hinder the growth of chili plants.
-
-                    Based on the above background, the author intends to design "SERIBUAN" (Seed Repairing Box with the Induction of Magnetic Field on Extremely Low Frequency) with IoT integration, which is an innovative application of magnetic field exposure to plant seeds. This tool aims to repair and improve the quality of aging seeds through exposure to ELF (Extremely Low Frequency) magnetic induction and is integrated via IoT (Internet of Things), allowing the device to be controlled through a smartphone based on the type of seed used.</p>
-
-                <Image src={PC1}
+                <p className='text-white text-xl text-justify mt-16' style={{ fontFamily: 'Baskervville SC, serif' }}>The rise in unhealthy eating habits, particularly among students, has become a significant public health concern. Poor dietary choices can lead to a range of chronic diseases, including obesity, diabetes, and cardiovascular problems. Recognizing this, NutriZen aims to offer a solution by addressing the unique challenges students face in maintaining a healthy diet. NutriZen is designed to empower individuals by providing personalized food recommendations and calorie information through an intuitive and user-friendly platform, significantly improving eating patterns and overall health.</p>
+                <p className='text-white text-xl text-justify' style={{ fontFamily: 'Baskervville SC, serif' }}>At its core, NutriZen simplifies the process of nutrition tracking. One of the most innovative aspects of the app is the food photo scanning feature, which allows users to upload pictures of their meals and receive instant calorie estimates, eliminating the need for manual calorie counting and tedious food logging. This feature not only saves time but also makes the process more intuitive and accessible to users, especially for busy students who may find it difficult to manually log every meal. By streamlining the calorie tracking process, NutriZen ensures users stay informed about their intake without additional effort.</p>
+                <p className='text-white text-xl text-justify' style={{ fontFamily: 'Baskervville SC, serif' }}>Furthermore, NutriZen offers personalized meal plans and reminders that cater to individual health goals, whether the objective is weight gain, loss, or maintenance. The app takes into account users' dietary preferences, ensuring that the suggested meals are aligned with their lifestyle and nutritional needs. This level of customization sets NutriZen apart from other nutrition apps that often focus solely on calorie counting without factoring in personal goals and food preferences. The result is a more holistic approach to healthy eating, providing users with a tailored guide to better nutrition.</p>
+                <p className='text-white text-xl text-justify' style={{ fontFamily: 'Baskervville SC, serif' }}>One of NutriZen's key differentiators is its focus on students, who often struggle to make healthy dietary choices due to busy schedules and limited access to nutritious food. While many other apps target a general audience, NutriZen addresses the specific needs of this demographic. By offering solutions that fit into a student’s fast-paced lifestyle, NutriZen ensures that healthy eating becomes more manageable, even in the face of tight deadlines, long study hours, and limited food options.</p>
+                <p className='text-white text-xl text-justify' style={{ fontFamily: 'Baskervville SC, serif' }}>Additionally, NutriZen aims to promote public health by encouraging informed food choices. By providing users with the tools to better understand their diet, the app empowers individuals to make healthier decisions, thereby contributing to weight management and overall well-being. In this way, NutriZen not only benefits individuals but also has the potential to make a broader impact on public health.</p>
+                <p className='text-white text-xl text-justify' style={{ fontFamily: 'Baskervville SC, serif' }}>Although several apps and tools are available to help with calorie tracking and promoting healthy eating, few provide the comprehensive solution that NutriZen offers. While other platforms may cater to broader audiences, NutriZen’s emphasis on students, combined with its unique photo-scanning feature and personalized approach to nutrition, makes it a standout solution in the realm of health and wellness.</p>
+                <Image src={PC9}
                     alt="Hero"
                     className='w-8/12 h-full mx-auto py-8' />
+                <p className='text-white text-xl text-justify' style={{ fontFamily: 'Baskervville SC, serif' }}>In conclusion, NutriZen offers a practical and user-friendly solution to the growing problem of unhealthy eating patterns among students. By simplifying the calorie tracking process, offering tailored meal plans, and addressing the specific challenges students face, NutriZen has the potential to significantly improve individual health outcomes and contribute to better public health. Its unique features, combined with a focus on personalization and convenience, make NutriZen an essential tool for anyone seeking to improve their diet and maintain long-term health.</p>
+
 
                 {/* CTA */}
-                <div className='w-full flex justify-center gap-5'>
-                    <a className='bg-white font-semibold px-6 py-2 rounded-full hover:underline hover:bg-slate-100 inline-flex justify-center items-center' target="_blank" style={{ fontFamily: 'Baskervville SC, serif' }} href="https://docs.google.com/document/d/1n4GbmhO7XXrF9Sc4lg3WSjZkFFt1Kc2v/edit?usp=drive_link&ouid=111329683089977458702&rtpof=true&sd=true"><span>Full Text</span><IoMdDownload className='ml-2' /></a>
-                    <a className='bg-white font-semibold px-6 py-2 rounded-full hover:underline hover:bg-slate-100 inline-flex justify-center items-center' target="_blank" style={{ fontFamily: 'Baskervville SC, serif' }} href="https://drive.google.com/file/d/1fzae2qZqdKyaKvnDEXaq_MgABxfx1eL3/view?usp=drive_link"><span>Application APK</span><IoMdDownload className='ml-2' /></a>
+                <div className='w-full flex justify-center gap-5 mt-8'>
+                    <a className='bg-white font-semibold px-6 py-2 rounded-full hover:underline hover:bg-slate-100 inline-flex justify-center items-center' target="_blank" style={{ fontFamily: 'Baskervville SC, serif' }} href="https://drive.google.com/file/d/1IJ2GZF4Ac1Ss7P3wZuGivpiwUAxoQq91/view?usp=sharing"><span>Project Brief</span><IoMdDownload className='ml-2' /></a>
+                    <a className='bg-white font-semibold px-6 py-2 rounded-full hover:underline hover:bg-slate-100 inline-flex justify-center items-center' target="_blank" style={{ fontFamily: 'Baskervville SC, serif' }} href="https://drive.google.com/file/d/1q6VEdlVp6dRvBb5ERcg9OPSumTSTxwQA/view?usp=sharing"><span>Go To Market</span><IoMdDownload className='ml-2' /></a>
+                    <a className='bg-white font-semibold px-6 py-2 rounded-full hover:underline hover:bg-slate-100 inline-flex justify-center items-center' target="_blank" style={{ fontFamily: 'Baskervville SC, serif' }} href="https://github.com/Nutrizen-Capstone"><span>Project Program</span><IoMdDownload className='ml-2' /></a>
                 </div>
             </div>
         </>
